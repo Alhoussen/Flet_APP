@@ -169,7 +169,7 @@ class CalculatorApp(ft.Container):
 def main(page: ft.Page):
     page.title = "Calc App"
     
-    # Récupérer la taille de l'écran et définir la fenêtre aux dimensions de l'écran
+    # Récupérer la taille de l'écran et définir la fenêtre aux dimensions de l'écrannn
     page.window_width = 1920  # Largeur typique d'un écran Full HD
     page.window_height = 1080  # Hauteur typique d'un écran Full HD
     page.window_resizable = False  # Désactiver le redimensionnement de la fenêtre
