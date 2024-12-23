@@ -87,7 +87,7 @@ def main(page: Page):
         width=500,
         height=800,
         bgcolor=BG,
-        border_radius=35,
+        border_radius=35,,
         content=Stack(
             controls=[
                 page_1,
