@@ -172,7 +172,7 @@ def main(page: ft.Page):
     # Récupérer la taille de l'écran et définir la fenêtre aux dimensions de l'écrans
     page.window_width = 1920  # Largeur typique d'un écran Full HD
     page.window_height = 1080  # Hauteur typique d'un écran Full HD
-    page.window_resizable = False  # Désactiver le redimensionnement de la fenêtreee
+    page.window_resizable = False  # Désactiver le redimensionnement de la fenêtre
 
     calc = CalculatorApp()
     page.add(calc)
